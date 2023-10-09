@@ -1,4 +1,23 @@
+:root {
+    --indent: 20px;
+}
+
+header {
+    /* padding: var(--indent); */
+    display: flex;
+    justify-content: space-between;
+}
+
 .title {
+    padding: var(--indent);
+
     font-size: 5rem;
     text-transform: uppercase;
+}
+
+.navBtn {
+    display: -webkit-box;
+    float: right;
+    height: 30px;
+    padding-top: 150px;
 }
